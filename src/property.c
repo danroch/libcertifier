@@ -45,7 +45,7 @@
 #define DEFAULT_USER_CA_PATH "/usr/local/etc/certfier"
 #define DEFAULT_GLOBAL_CA_PATH "/etc/certifier"
 #define DEFAULT_CURDIR_CA_PATH "."
-#define DEFAULT_CERTIFIER_URL "https://certifier.xpki.io/v1/certifier"
+#define DEFAULT_CERTIFIER_URL "https://certifier-p01.xpki.io/v1/certifier "
 #define DEFAULT_PROFILE_NAME "XFN_Matter_OP_Class_3_ICA"
 #define DEFAULT_CERT_MIN_TIME_LEFT_S 90 * 24 * 60 * 60;
 #define DEFAULT_OPT_SOURCE "unset-libcertifier-c-native"
