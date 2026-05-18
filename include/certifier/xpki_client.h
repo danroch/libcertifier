@@ -28,8 +28,6 @@
 extern "C" {
 #endif
 
-#define DEFAULT_CERTIFIER_URL "https://certifier-p01.xpki.io/v1/certifier"
-
 typedef enum
 {
     XPKI_CLIENT_SUCCESS = 0,
