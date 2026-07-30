@@ -462,9 +462,7 @@ XPKI_CLIENT_ERROR_CODE xc_renew_cert(renew_cert_param_t * params)
     }
     ReturnErrorOnFailure(certifier_set_property(certifier, CERTIFIER_OPT_INPUT_P12_PATH, params->p12_path));
     ReturnErrorOnFailure(certifier_set_property(certifier, CERTIFIER_OPT_INPUT_P12_PASSWORD, params->p12_password));
-    /**
-        * certifier.url must be present in the config file.
-        */
+    /* certifier.url must be present in the config file. */
     const char * certifier_url = (char *) certifier_get_property(certifier, CERTIFIER_OPT_CERTIFIER_URL);
     VerifyOrReturnError(certifier_url != NULL, XPKI_CLIENT_INVALID_ARGUMENT);
 
